@@ -1,0 +1,15 @@
+{
+	"name": "AzureDataLakeStore1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Loading data into azure data lake",
+		"annotations": [],
+		"type": "AzureDataLakeStore",
+		"typeProperties": {
+			"dataLakeStoreUri": "https://myresourcegroupdatalake.azuredatalakestore.net/webhdfs/v1",
+			"tenant": "88fd8d09-4b36-4fab-83d0-4f81d463ec9e",
+			"subscriptionId": "c1421c37-09c9-4f1f-b17f-8d99810784b8",
+			"resourceGroupName": "myresourcegroupsqldatabase"
+		}
+	}
+}
